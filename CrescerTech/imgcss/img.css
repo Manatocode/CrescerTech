@@ -112,9 +112,60 @@ body {
 
 
 
-.texto2 {
+.desenvolvimento .texto2 {
     width: 75vw;
     display: flex;
     border: solid;
+    
+}
+
+.desenvolvimento {
+
+    border-radius: 1rem;
+    background: rgba(241, 133, 255, 0.59);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.9px);
+    -webkit-backdrop-filter: blur(11.9px);
+    border: 1px solid rgba(255, 105, 230, 0.25);
+    margin: 100px 3vw 0 2vw;
+    
+}
+
+.t1 {
+
+    display: inline-block;
+    justify-content: space-around;
+    border: solid;
+    border-color: white;
+    border-radius: 1rem;
+    margin:  100px 55px;
+    width: 400px;
+    height: 600px;
+}
+
+.t2 {
+
+    display: inline-block;
+    justify-content: space-around;
+    border: solid;
+    border-color: white;
+    border-radius: 1rem;
+    margin:  100px 30px;
+    width: 400px;
+    height: 600px;
+
+}
+
+.t3 {
+
+    display: inline-block;
+    justify-content: space-around;
+    border: solid;
+    border-color: white;
+    border-radius: 1rem;
+    margin:  3vw 5vh;
+    width: 400px;
+    height: 600px;
 
 }
