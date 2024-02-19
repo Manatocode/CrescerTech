@@ -1,0 +1,182 @@
+body {
+    background-image: linear-gradient(to bottom, #051937, #19476b, #2f7a9f, #4cb2d1, #74edff);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: antiquewhite;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.menuTopo a {
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.8s ease;
+}
+
+.textoTitulo {
+    display: inline-block;
+    border: 1px solid rgba(255, 105, 230, 0.25);
+    padding: 1vh 1vw;
+    background: rgba(130, 255, 207, 0.59);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.9px);
+    -webkit-backdrop-filter: blur(11.9px);
+    margin: 1vh 0 0 1vh;
+}
+
+.menuTopo {
+    display: inline;
+    float: right;
+    list-style-type: none;
+    background-color: gray;
+    max-width: 1000vw;
+    padding: 2vh 2vw;
+    background: rgba(130, 255, 207, 0.59);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.9px);
+    -webkit-backdrop-filter: blur(11.9px);
+    border: 1px solid rgba(255, 105, 230, 0.25);
+    margin: 1vh 3vw 0 1vw;
+}
+
+.menuTopo ul li {
+    display: inline;
+    border-radius: 1rem;
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+    background-color: rgb(248, 255, 243);
+    font-size: 1.3rem;
+}
+
+.menuTopo ul input {
+    margin: 0 10vw 0 9.5vw;
+    padding: 0.8vh 0.8vw;
+    border-radius: 1rem;
+}
+
+.meio {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(130, 255, 207, 0.59);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.9px);
+    -webkit-backdrop-filter: blur(11.9px);
+    border: 1px solid rgba(255, 105, 230, 0.25);
+    padding: 02vh 02vw;
+    margin: 0 3vw 0 2vw;
+}
+
+.centroTopo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.textoimagem1 {
+    display: flex;
+    border: solid;
+    width: 25vw;
+    border-radius: 1rem;
+    margin: 10px 5px 0 0;
+    padding: 5vh;
+    background-color: white;
+    background-image: url(fisiculturista-feminina-treinando-triceps-no-ginasio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.texto1 {
+    width: 75vw;
+    display: flex;
+    border: solid;
+    border-color: white;
+    border-radius: 1rem;
+    margin: 10px 5px 0 0;
+    padding: 5vh;
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.7px);
+    -webkit-backdrop-filter: blur(11.7px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+
+
+
+.desenvolvimento {
+
+    border-radius: 1rem;
+    background: rgba(130, 255, 207, 0.59);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.9px);
+    -webkit-backdrop-filter: blur(11.9px);
+    border: 1px solid rgba(129, 255, 238, 0.25);
+    margin: 100px 3vw 0 2vw;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.t1, .t2, .t3 {
+    border: solid;
+    border-color: white;
+    border-radius: 1rem;
+    margin: 5vh 3vw 2vh 3.5vw;
+    width: 25vw;
+    height: 75vh;
+    text-align: center;
+}
+
+.fim {
+    
+    border: none;
+    margin: 25vh 0 0 0;
+    height: 25vh;
+    text-align: center;
+    padding-top: 10vh;
+    background: rgba(130, 255, 207, 0.59);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.9px);
+    -webkit-backdrop-filter: blur(11.9px);
+    border: 1px solid rgba(129, 255, 238, 0.25);
+    
+    
+
+}
+
+.fim p { 
+
+    display: inline;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    
+    
+}
+
+.final {
+
+    display: block;
+    position: static;
+    bottom: 0; 
+    text-align: center;
+    background: rgba(130, 255, 207, 0.59);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.9px);
+    -webkit-backdrop-filter: blur(11.9px);
+    border: 1px solid rgba(129, 255, 238, 0.25);
+
+}
