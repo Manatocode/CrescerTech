@@ -53,12 +53,18 @@ body {
     padding: 1vh 1vw;
     background-color: rgb(248, 255, 243);
     font-size: 1.3rem;
+    transition: 600ms ease-in-out;
 }
 
 .menuTopo ul input {
     margin: 0 10vw 0 9.5vw;
     padding: 0.8vh 0.8vw;
     border-radius: 1rem;
+}
+
+.menuTopo>ul>li:hover {
+    padding: 2vh 2vw;
+    background-color: red;
 }
 
 .meio {
