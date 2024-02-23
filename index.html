@@ -7,6 +7,7 @@
     <title>Crescer Tech </title>
     <link rel="stylesheet" href="imgcss/img.css">
     <link rel="icon" type="image/x-icon" href="imgcss/favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--CSS do AOS-->
 </head>
 
 <body>
@@ -30,7 +31,7 @@
 <section> <!--Inicio Section imagem arvore-->
     <div class="centroTopo">
         <P>
-            <img src="imgcss/arvore.png" alt="Uma árvore no centro" height="450px">
+            <img src="imgcss/arvore.png" alt="Uma árvore no centro" height="450px"  data-aos="zoom-in-up" data-aos-duration="3000">
         </P>
     </div>
 </section> <!--Fim section arvore-->
@@ -74,7 +75,11 @@
     </div>
     <spam class="final">Desenvolvido por CrescerTech</spam>
 </footer><!--Fim do Rodapé da pagina-->    
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--JS do Aos-->
+<!-- start aos-->
+<script> 
+    AOS.init(); 
+  </script>
 </body>
 
 </html>
